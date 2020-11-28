@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Magic Eight Ball</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="magic.css">
+</head>
+<body>
+  
+ 
+  
+<div class="main">
+  
+    <div class="head" ><h1 id="wel">Welcome</h1></div>
+    <marquee class="head" scrollamount="30"><h1 ><em>Magic Eight Ball</em></h1></marquee>
+
+
+  
+  
+
+    <div id="hello" class="head1"></div>
+
+    <div id="hello1" class="head2"></div>
+
+    <!-- <div align="center" class="head7"><button  id="but7" onclick="restart()">Restart Game</button></div> -->
+
+  <div  id= "drop" class="head" >
+  	 <select id= "sel" onclick="hide()" >
+  	 	<option >1. Will Donald Trump be their next President?</option>
+        <option >2. Did she think about me?</option>
+        <option >3. Is there a pot of gold at the end of a rainbow?</option>
+        <option >4. Will Arjun miss me when I'm out on medical leave?</option>
+        <option >5. Will I pass my exam?</option> 
+        <option >6. Does she love me?</option>
+        <option >7. Should i buy a pink or a golden winter coat?</option>
+        <option >8. Will i meet her soon?</option>
+        <option >9. Should I buy Airpods Pro?</option>
+        <option >10. Would my mom let me drive soon?</option>
+  	 </select>
+  </div> 
+
+  <div id= "drop2" class="head3">
+  	 <p id="output" ></p>
+  </div>
+
+  <div id="but1" >
+    <div class="mar">
+    	<button id="but5" onclick="randomtest(); ">Answer</button><br>
+  	    <button id="but4" onclick="quit()">Quit Game</button>
+  	</div>
+  </div>
+
+   
+  
+
+  <div  id = "inp1" class="head">
+  	<input id="input1" placeholder="Enter your name" >
+  </div>
+  
+
+  <div id="but" >
+  	<button id = "but3" onclick="nam(); tran()">Enter</button>
+  </div>
+  
+  
+  <div id="msg" class="head4">
+  	Do you want to start the game?<br>
+    <input style="margin-top: 20px;"  type="radio" id="yes" name="sel" value="yes" onclick="rad()">
+    <label >Yes</label><br>
+    <input type="radio" id="no" name="sel" value="no" onclick="rad()">
+    <label >No</label>
+  </div>
+
+ 
+ </div>	
+ 
+
+ <script src="magic.js"></script> 
+
+
+</body>
+</html>

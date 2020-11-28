@@ -1,0 +1,143 @@
+body{
+	background-image: url("tenor.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 95%;
+	min-height: 93vh;
+}
+.main{
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	transform: translate(-50%,-50%);
+	width: 90%;
+	height: auto;
+}
+.head{
+	text-align: center;
+	color: #00ff00;
+	font-size: 25px;
+	padding-left: 7rem;
+	padding-right: 7rem;
+ }
+.head1{
+	text-align: center;
+	color: rgb(66, 245, 245);
+	font-size: 30px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+.head2{
+	text-align: center;
+	color: #00ff00;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+.head3{
+	text-align: center;
+	color: rgb(66, 245, 170);
+}
+.head4{
+	text-align: center;
+	color: rgb(66, 245, 245);
+	font-size: 30px;
+ }
+#but{
+	margin-top: 20px;
+	text-align: center;
+}
+#but3{
+	background-color: rgb(66, 245, 170);
+	color: white;
+	width: 200px;
+	height: 30px;
+	border-radius: 5px;
+}
+#but4{
+	background-color: red;
+	color: white;
+	width: 200px;
+	height: 30px;
+	border-radius: 5px;
+}
+#but5{
+	background-color: green;
+	color: white;
+	width: 200px;
+	height: 30px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+#msg{
+	display: none;
+}
+#drop{
+	display: none;
+}
+#drop2{
+	display: none;
+	margin-top: 20px;
+}
+#but1{
+	text-align: center;
+	margin-top: 20px;
+	display: none;
+}
+#input2{
+	width: 300px;
+}
+.mar{
+	margin:20px;
+}
+#input1{
+	width: 400px;
+	height: 25px;
+	border-radius: 5px;
+	background-color: rgb(194, 245, 66);
+}
+#sel{
+	height: 35px;
+	border-radius: 5px;
+	background-color: rgb(194, 245, 66);
+	width: 400px;
+}
+#output{
+	font-size: 25px;
+}
+#hello{
+	transition: 2s;
+	transform: scale(0, 0);
+
+}
+
+#wel{
+	animation:blinkingText 1.2s infinite;
+
+}
+@keyframes blinkingText{
+	 0%{     color: #00ff00;    }
+    49%{    color: #00ff00; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #00ff00;    }
+}
+#but7{
+	display: none;
+	background-color: green;
+	color: white;
+	width: 200px;
+	height: 30px;
+	border-radius: 5px;
+}
+#but5:hover{
+	background-color: rgb(52, 235, 143);
+}
+#but4:hover{
+    background-color: orange;
+}
+#but3:hover{
+	background-color: green;
+}
+
